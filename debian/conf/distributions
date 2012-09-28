@@ -1,0 +1,35 @@
+Codename: squeeze
+Version: 6.x
+Origin: Debian Tarantool repository
+Label: Debian Tarantool repository
+Description: Debian Tarantool repository
+Architectures: i386 amd64 source
+Components: main 
+SignWith: tarantool-ru
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release . .gz .bz2
+Contents: . .gz .bz2
+
+Codename: wheezy
+Version: 6.x
+Origin: Tarantool repository
+Label: Tarantool repository
+Description: Debian Tarantool repository
+Architectures: i386 amd64 source
+Components: main 
+SignWith: tarantool-ru
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release . .gz .bz2
+Contents: . .gz .bz2
+
+Codename: sid
+Version: 6.x
+Origin: Tarantool repository
+Label: Tarantool repository
+Description: Debian Tarantool repository
+Architectures: i386 amd64 source
+Components: main 
+SignWith: tarantool-ru
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release . .gz .bz2
+Contents: . .gz .bz2

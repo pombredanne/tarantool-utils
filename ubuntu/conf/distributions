@@ -1,0 +1,48 @@
+
+Codename: precise
+Version: 12.04
+Origin: Ubuntu Tarantool repository
+Label: Ubuntu Tarantool repository
+Description: Ubuntu Tarantool repository
+Architectures: i386 amd64 source
+Components: main 
+SignWith: tarantool-ru
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release . .gz .bz2
+Contents: . .gz .bz2
+
+Codename: oneiric
+Version: 11.10
+Origin: Ubuntu Tarantool repository
+Label: Ubuntu Tarantool repository
+Description: Ubuntu Tarantool repository
+Architectures: i386 amd64 source
+Components: main 
+SignWith: tarantool-ru
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release . .gz .bz2
+Contents: . .gz .bz2
+
+Codename: natty
+Version: 11.04
+Origin: Ubuntu Tarantool repository
+Label: Ubuntu Tarantool repository
+Description: Ubuntu Tarantool repository
+Architectures: i386 amd64 source
+Components: main 
+SignWith: tarantool-ru
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release . .gz .bz2
+Contents: . .gz .bz2
+
+Codename: lucid
+Version: 10.04.3
+Origin: Ubuntu Tarantool repository
+Label: Ubuntu Tarantool repository
+Description: Ubuntu Tarantool repository
+Architectures: i386 amd64 source
+Components: main 
+SignWith: tarantool-ru
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release . .gz .bz2
+Contents: . .gz .bz2

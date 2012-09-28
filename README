@@ -1,0 +1,7 @@
+
+buildbot - tarantool master/slave configurations
+
+debian-builder - tarantool Debian builder manager
+
+debian - reprepro debian local repository configuration 
+ubuntu - reprepro ubuntu local repository configuration 

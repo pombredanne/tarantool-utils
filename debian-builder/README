@@ -1,0 +1,25 @@
+
+
+.-----------------------------------------.
+| Tarantool Debian builder infrastructure |
+`-----------------------------------------'
+
+Packages are build by builder (builder.sh and manager.sh), than exported to the
+local debian repository (reprepro) and syncronized with
+webdav server (sitecopy, see ~/.sitecopyrc).
+
+builder - tarantool debian package builder.
+builder/builder.sh - per-instance packages builder.
+builder/manager.sh - per-instances builder.sh wrapper.
+builder/base - pbuilder distribution images.
+builder/build - builder defined instances.
+
+debian - reprepro debian repository.
+debian-stable - reprepro debian repository for stable releases.
+ubuntu - reprepro ubuntu repository.
+ubuntu-stable - reprepro ubuntu repository for stable releases.
+
+Builder instance is directory, that must have instance.conf configuration
+file which defines options (like architecture and distribution, etc)
+needed for build.
+
