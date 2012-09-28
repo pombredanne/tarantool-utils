@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# function to upload file to tarantool webdav server
+#
+function upload() {
+	dir=$1
+	file=$2
+	cadaver_serv="http://mywiki1.mail.ru/webdav"
+	cadaver_req="cd $dir\n
+	put $file\n
+	quit\n
+	"
+	upload_result=$(echo -e $cadaver_req | cadaver $cadaver_serv)
+	echo $upload_result
+	echo $upload_result | grep -q succeeded || exit 1
+}
+
+if [ $# -lt 1 ]; then
+	echo "tarantool.org/dist file uploader."
+	echo
+	echo "usage: upload.sh <...>"
+	exit 1
+fi
+
+for file in "$@"; do
+	echo "--> $file"
+	upload "dist/" $file
+done
